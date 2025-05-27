@@ -28,9 +28,14 @@ sns.pairplot(iris, hue='species', height=2.5)
 plt.suptitle("Pairplot of Iris Dataset", y=1.02)
 plt.show()
 
-# Correlation heatmap (only numeric columns)
+# Correlation heatmap with numeric columns
 iris_numeric = iris.drop(columns=["species"])
 plt.figure(figsize=(8, 5))
 sns.heatmap(iris_numeric.corr(), annot=True, cmap="coolwarm")
 plt.title("Correlation Heatmap of Numeric Features", fontsize=14)
 plt.show()
+
+
+# MIT License
+# Copyright (c) 2025 Lokesh Raj
+# Permission is hereby granted, free of charge, to any person obtaining a copy...
