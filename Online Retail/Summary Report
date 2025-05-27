@@ -1,0 +1,31 @@
+Online Retail Sales Analysis
+This project analyzes transaction-level retail data to uncover trends in monthly revenue and identify the most profitable product categories.
+
+Files
+Online Retail.csv: Transaction data of an e-commerce store (likely from the UCI repository)
+
+Key Insights:
+1. Monthly Sales Trend
+Revenue showed a significant increase over time, with peak sales observed in November and December 2011.
+A consistent upward trend indicates growing customer engagement or seasonal effects.
+
+Visualization: Bar chart of total monthly revenue from December 2010 to December 2011.
+
+2. Top-Selling Products by Revenue
+The most profitable product is "PAPER CRAFT , LITTLE BIRDIE", followed by "REGENCY CAKESTAND 3 TIER" and "WHITE HANGING HEART T-LIGHT HOLDER".
+These products contributed significantly to the company’s total revenue.
+
+Visualization: Horizontal bar chart of the top 10 product categories by total revenue.
+
+Tools Used:
+Pandas: Data cleaning, aggregation, and transformation
+Matplotlib and Seaborn: Visualization and styling
+Datetime Handling: Time-based grouping using pd.to_datetime and Period features
+
+Data Cleaning Steps
+Removed missing entries with dropna()
+Filtered out transactions with non-positive quantity or price
+
+Created new features:
+TotalPrice = Quantity × UnitPrice
+Month extracted for monthly aggregation
