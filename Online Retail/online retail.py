@@ -36,3 +36,7 @@ plt.title('Top 10 Product Categories by Revenue')
 plt.xlabel('Revenue')
 plt.tight_layout()
 plt.show()
+
+# MIT License
+# Copyright (c) 2025 Lokesh Raj
+# Permission is hereby granted, free of charge, to any person obtaining a copy...
