@@ -1,4 +1,4 @@
-#  Import necessary libraries
+#  Import  libraries
 import pandas as pd
 import string
 import matplotlib.pyplot as plt
@@ -6,7 +6,7 @@ from textblob import TextBlob
 import nltk
 from nltk.corpus import stopwords
 
-# Download stopwords
+# stopwords
 nltk.download('stopwords')
 stop_words = set(stopwords.words('english'))
 
@@ -14,7 +14,7 @@ stop_words = set(stopwords.words('english'))
 with open(r"C:\Users\LOKESHRAJ M\Intern\codmetric\sentiment_analysis\test.ft.txt", "r", encoding="utf-8") as file:
     reviews = file.readlines()
 
-# Convert to DataFrame
+# ConvertS  to DataFrame
 df = pd.DataFrame(reviews, columns=["Review"])
 
 # Text preprocessing function
@@ -25,7 +25,7 @@ def preprocess(text):
     words = [word for word in words if word not in stop_words]
     return " ".join(words)
 
-# Apply preprocessing
+# Applying preprocessing
 df['Cleaned_Review'] = df['Review'].astype(str).apply(preprocess)
 
 # Sentiment analysis
@@ -41,8 +41,6 @@ def get_sentiment(text):
 df['Sentiment'] = df['Cleaned_Review'].apply(get_sentiment)
 # Visualization - Bar Chart
 sentiment_counts = df['Sentiment'].value_counts()
-
-# Bar Chart
 sentiment_counts.plot(kind='bar', color=['green', 'gray', 'red'])
 plt.title("Sentiment Distribution - Bar Chart")
 plt.xlabel("Sentiment")
@@ -57,3 +55,8 @@ plt.title("Sentiment Distribution - Pie Chart")
 plt.ylabel("")
 plt.tight_layout()
 plt.show()
+
+
+# MIT License
+# Copyright (c) 2025 Lokesh Raj
+# Permission is hereby granted, free of charge, to any person obtaining a copy...
