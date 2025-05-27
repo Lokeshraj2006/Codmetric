@@ -1,0 +1,39 @@
+Sentiment Analysis Summary Report
+Objective
+The purpose of this task was to analyze product review texts to identify overall sentiment — positive, neutral, or negative — and derive insights into customer perception.
+
+Methodology
+Data Source
+The dataset used was a plain text file (test.ft.txt) containing one review per line.
+
+Preprocessing
+Converted all text to lowercase.
+Removed punctuation using the string module.
+Removed stopwords using NLTK's English stopword corpus.
+Applied custom preprocessing to clean each review before analysis.
+
+Sentiment Analysis
+Performed using the TextBlob library.
+Sentiment polarity was used to classify reviews:
+Polarity > 0 → Positive
+Polarity = 0 → Neutral
+Polarity < 0 → Negative
+
+Visualization
+A pie chart was created using Matplotlib to visualize the distribution of sentiment categories.
+
+Results
+Sentiment	Percentage
+Positive	75.3%
+Negative	22.6%
+Neutral	2.1%
+
+Insights
+The majority of the reviews (75.3%) were positive, indicating high customer satisfaction.
+A significant portion (22.6%) were negative, which may point to specific issues that need attention.
+A small number (2.1%) were neutral, suggesting few customers provided objective or undecided feedback.
+
+Conclusion
+The sentiment distribution suggests that overall customer sentiment is highly positive. 
+However, the notable proportion of negative feedback indicates potential areas for improvement. 
+This analysis can be used to guide product enhancements, customer support initiatives, and overall business strategy.
