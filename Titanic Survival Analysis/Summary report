@@ -1,0 +1,39 @@
+Titanic Survival Analysis – Summary Report
+Author: Lokeshraj M
+License: MIT License
+
+Objective:
+To analyze passenger data from the Titanic dataset and uncover the key factors that influenced survival rates using exploratory data analysis and visualization techniques.
+
+Key Insights:
+
+Gender and Survival:
+Females had a much higher survival rate (~74%) than males (~19%).
+This supports the historical "women and children first" rescue policy.
+
+Class Matters:
+Passengers in 1st class had the highest survival rate (~63%), while those in 3rd class had the lowest (~24%).
+Indicates socio-economic status significantly influenced survival.
+
+Age Impact:
+Children (age < 10) had better chances of survival, especially if traveling in 1st or 2nd class.
+Elderly passengers had lower survival rates.
+
+Fare Paid:
+Higher fare amounts correlated with higher survival, reinforcing the class-based survival disparity.
+
+Embarkation Port:
+Passengers who boarded at Cherbourg (C) had the highest survival rate (~55%).
+Those from Southampton (S) had the lowest (~34%).
+
+Family Size:
+Moderate family size (2–4 members) increased survival probability.
+Solo travelers and large families (7+) had lower survival rates.
+
+Tools & Techniques Used:
+Pandas and NumPy for data manipulation
+Matplotlib and Seaborn for visualization
+Exploratory Data Analysis (EDA) for pattern discovery
+
+Conclusion:
+Survival on the Titanic was strongly influenced by gender, class, age, and fare. These factors reflect social dynamics of the time, highlighting inequalities in access to safety during disaster situations.
