@@ -64,3 +64,7 @@ plt.tight_layout()
 plt.show()
 
 # the second graph would take time to run as it processes the entire dataset
+
+# MIT License
+# Copyright (c) 2025 Lokesh Raj
+# Permission is hereby granted, free of charge, to any person obtaining a copy...
