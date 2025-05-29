@@ -23,7 +23,12 @@ Bar chart displaying total monthly revenue from December 2010 to December 2011.
 - These products contributed significantly to the company’s total revenue.
 
 **Visualization:**  
-Horizontal bar chart of the top 10 product categories by total revenue.
+Horizontal bar chart of the top 10 product categories by total revenue. And Vertical bar graph for monthly sales trend.
+
+![Screenshot 2025-05-26 134528](https://github.com/user-attachments/assets/a4c79f2e-95f1-4348-bdc4-193385fe6944)
+
+![Screenshot 2025-05-26 134515](https://github.com/user-attachments/assets/2fa84021-3402-4242-98c9-649a434f41ca)
+
 
 ## Tools Used
 
