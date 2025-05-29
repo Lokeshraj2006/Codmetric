@@ -30,10 +30,8 @@ A bar chart visualizes the distribution of these estimated ratings.
 - Created a **bar chart** using `seaborn.barplot()` to show the number of reviews in each rating category.
 - Enhanced layout and presentation with `tight_layout()`.
 
-### Clean Plot Design
-
-- Added **labels and titles** for clarity.
-- Used a **coolwarm** color palette to visually distinguish between the rating categories.
+  ![Screenshot 2025-05-26 103339](https://github.com/user-attachments/assets/6b7b7362-253f-4089-85fe-1433f89edde2)
+  ![Screenshot 2025-05-26 102012](https://github.com/user-attachments/assets/26a3e13e-4331-41a6-af09-a87cdacd64c4)
 
 ---
 
