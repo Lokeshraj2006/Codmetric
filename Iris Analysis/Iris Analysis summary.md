@@ -26,21 +26,36 @@ This project performs exploratory data analysis (EDA) on the famous Iris dataset
 - **Petal length and petal width** are strongly correlated
 - **Sepal width** has a low correlation with other features
 
+  ![Screenshot 2025-05-26 130756](https://github.com/user-attachments/assets/93eddaa2-5b10-4576-b1e0-a042da83d5c8)
+
+
+
 ### Pairplot
 
 - Plots each feature against every other
 - **Setosa** is clearly separated from other species
 - **Versicolor and Virginica** show some overlap
 
+  ![Screenshot 2025-05-26 130251](https://github.com/user-attachments/assets/7f0d4f04-79dd-43a9-b775-9086c11c6d18)
+
+
+  
 ### Histogram / Distribution Plots
 
 - Show spread and distribution of feature values
 - **Petal features** show better separation by species than sepal features
 
+![Screenshot 2025-05-26 130652](https://github.com/user-attachments/assets/cc34014b-46da-4ed1-bd6b-4dfa8429b294)
+
+
+
 ### Boxplot
 
 - Visualizes spread, median, and potential outliers
 - Highlights which features vary significantly between species
+
+  ![Screenshot 2025-05-26 130211](https://github.com/user-attachments/assets/2855b340-6c66-4c05-8329-7f819c8368be)
+
 
 ## Data Insights
 
