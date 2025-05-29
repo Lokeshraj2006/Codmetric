@@ -18,7 +18,6 @@ The work showcases my ability to turn raw data into understandable visuals and s
 ## Tools & Technologies Used
 
 - **Python**
-- **Jupyter Notebook**
 - **Visual Studio Code (VS Code)** – Code editor
 - **Pandas** – Data handling & preprocessing  
 - **NumPy** – Numerical computations  
@@ -26,7 +25,8 @@ The work showcases my ability to turn raw data into understandable visuals and s
 - **Scikit-learn** – For structured dataset usage  
 - **W3Schools** – Reference for syntax and examples  
 - **ChatGPT** – For debugging help, guidance, and learning support
-
+- **Kaggle** – Source for datasets and notebooks
+  
 ---
 
 ## Key Highlights
@@ -43,16 +43,6 @@ The work showcases my ability to turn raw data into understandable visuals and s
 
 ---
 
-## What I Learned
-
-- How to clean and prepare datasets for analysis
-- Gained deep understanding of EDA techniques
-- Improved my ability to visualize patterns and detect outliers
-- Strengthened my Python coding skills and data storytelling
-- Effectively used learning platforms and AI tools to enhance productivity
-
----
-
 ## Offer Letter 
 ![Offer Letter_page-0001](https://github.com/user-attachments/assets/4f9e6e23-3b4e-4509-bc80-d9a564003157)
 
@@ -64,4 +54,17 @@ The work showcases my ability to turn raw data into understandable visuals and s
 ![Screenshot 2025-05-27 151458](https://github.com/user-attachments/assets/816bf8e4-6b7b-44a5-855c-e821f8766e1c)
 ![Screenshot 2025-05-27 151513](https://github.com/user-attachments/assets/effdcfd8-f720-496a-add1-fea258b9d464)
 ![Screenshot 2025-05-27 151534](https://github.com/user-attachments/assets/f531474f-3035-4d5d-b832-d8f77e3233b8)
+
+---
+
+## What I Learned
+
+- How to clean and prepare datasets for analysis
+- Gained deep understanding of EDA techniques
+- Improved my ability to visualize patterns and detect outliers
+- Strengthened my Python coding skills and data storytelling
+- Effectively used learning platforms and AI tools to enhance productivity
+
+
+
 
