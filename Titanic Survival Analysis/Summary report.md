@@ -38,6 +38,11 @@ To analyze passenger data from the Titanic dataset and uncover the key factors t
 - **Moderate family size (2–4 members)** increased survival probability.
 - **Solo travelers** and **large families (7+)** had lower survival chances.
 
+### Visualisation
+
+![Screenshot 2025-05-25 145738](https://github.com/user-attachments/assets/c2954d09-806a-4103-9390-c461d9411561)
+
+
 ---
 
 ## Tools & Techniques Used
