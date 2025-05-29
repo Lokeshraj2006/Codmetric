@@ -40,6 +40,9 @@ The purpose of this task was to analyze product review texts to identify overall
 
 - A **pie chart** was created using **Matplotlib** to show the distribution of sentiment categories among reviews.
 
+![Screenshot 2025-05-26 141717](https://github.com/user-attachments/assets/949299c3-6a9d-4154-b8d9-b228634ed8a0)
+
+
 ---
 
 ## Results
